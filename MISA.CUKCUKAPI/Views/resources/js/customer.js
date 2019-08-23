@@ -168,7 +168,7 @@ var CustomerJS = Object.create({
     },
     cleanDataDialog: function (dialogDisplayNow) {
         $(dialogDisplayNow).find('input').val(null);
-        $(dialogDisplayNow).find('.warning-feild').removeClass('border-red')
+        $(dialogDisplayNow).find('.warning-feild').removeClass('border-red');
         $(dialogDisplayNow).find('.warning-feild').next().remove();
     },
 });
