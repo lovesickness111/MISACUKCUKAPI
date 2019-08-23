@@ -1,0 +1,498 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../Views/resources/css/style.css">
+    <link rel="stylesheet" href="../Views/resources/js/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css">
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="menu">
+            <a href="#">
+                <div class="nav"><span>CUKCUK</span></div>
+            </a>
+            <div class="list">
+                <ul>
+                    <li class="li1"><a href="#">Tổng quan</a></li>
+                    <li class="li2"><a class="icon_down" href="#">Báo cáo</a></li>
+                    <li class="li3"><a href="#">Mua hàng</a></li>
+                    <li class="li4"><a href="#">Kho</a></li>
+                    <li class="li5"><a href="#">Quỹ tiền mặt</a></li>
+                    <li class="li6"><a href="#">Quỹ tiền gửi</a></li>
+                    <li class="li7"><a href="#">Chi phí</a></li>
+                    <li class="li8"><a href="#">Khuyến mại</a></li>
+                    <li class="li9"><a href="#">Thực đơn</a></li>
+                    <li class="li10"><a href="#">Danh mục</a></li>
+                    <li class="li11"><a href="#">Hủy hóa đơn</a></li>
+                    <li class="li12"><a href="#">SMS Marketing</a></li>
+                    <li class="li13"><a href="#">Đối tác giao hàng</a></li>
+                    <li class="li14"><a class="icon_down" href="#">Hóa đơn điện tử</a></li>
+                    <li class="li15"><a href="#">Thiết lập hệ thống</a></li>
+                    <li class="li16"><a class="icon_down" href="#">Trợ giúp</a></li>
+                    <li class="li17"><a href="#">Thuê bao</a></li>
+                    <li class="li18"><a href="#">5Food</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="header">
+                <div class="header-left">
+                    <select class="select1">
+                        <option value="1">Nhà hàng biển đông</option>
+                    </select>
+                </div>
+
+
+                <div class="header-right">
+
+
+                    <div class="emp">
+                        <div class="icon-emp"></div>
+                        <select class="select-person">
+                            <option value="1">Đặng Thành Tâm</option>
+                        </select>
+                    </div>
+
+                    <a href="#">
+                        <div class="call"></div>
+                    </a>
+
+                    <a href="#">
+                        <div class="notify"></div>
+                    </a>
+
+                    <select class="select2">
+                        <option value="1">Tiếng Việt(Tiếng việt)</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="infor-table">
+
+                <div class="infor-table-left">
+                    <span>Danh mục</span>
+                    <div class="infor-table-icon"></div>
+                    <a href="#">Khách hàng</a>
+                </div>
+
+                <div class="infor-table-right">
+                    <div class="feedback re-infor"><a class="feedback-a" href="#">Phản hồi</a></div>
+                    <div class="default re-infor"><a href="#">Quay lại thiết lập ban đầu</a></div>
+                </div>
+
+            </div>
+
+            <div class="table-main">
+                <div class="toolbar">
+                    <ul>
+                        <li id="add"><a class="ic1" href="#">Thêm</a></li>
+                        <li><a class="ic2" href="#">Nhân bản</a></li>
+                        <li><a class="ic3" href="#">Sửa</a></li>
+                        <li><a class="ic4" href="#">Xóa</a></li>
+                        <li><a class="ic5" href="#">Nạp</a></li>
+                        <li><a class="ic6" href="#">Nhập khẩu</a></li>
+                        <li><a class="ic7" href="#">Xuất khẩu</a></li>
+                        <li><a class="ic8" href="#">Gộp khách hàng</a></li>
+                        <li><a class="ic9" href="#">Giúp</a></li>
+                    </ul>
+                </div>
+
+                <div class="main-table">
+                    <div class="tbl-wraper" style="width: 100%;height: calc(100vh - 156px);border: 1px solid #d9d9d9;">
+                        <table id="table">
+                            <thead>
+                                <tr>
+                                    <th class="col1">
+                                        <div class="name-col1">Mã khách hàng</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Tên khách hàng</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Tên công ty</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Mã số thuế</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Địa chỉ</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Số điện thoại</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Email</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Mã thẻ thành viên</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Hạng thẻ</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Số tiền nợ</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Ghi chú</div>
+
+                                        <div class="filter">
+
+                                            <div class="dropdown">
+
+                                                <button class="dropdown-btn">*</button>
+
+                                                <div class="dropdown-content">
+                                                    <a href="#">=</a>
+                                                </div>
+
+                                            </div>
+
+                                            <input type="text">
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Thành viên 5Food</div>
+
+                                        <div class="filter">
+
+                                            <select class="5food" style="width:100%">
+                                                <option value="có">Có</option>
+                                                <option value="khong">Không</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                    <th class="col1">
+                                        <div class="name-col1">Ngừng theo dõi</div>
+
+                                        <div class="filter">
+
+                                            <select class="follow" style="width:100%">
+                                                <option value="có">Có</option>
+                                                <option value="khong">Không</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="table-body-customer">
+                                <!--<tr>
+                                    <td>KH000021</td>
+                                    <td>Nguyễn Việt Cường</td>
+                                    <td>MISA</td>
+                                    <td>666818</td>
+                                    <td>Hà Nội</td>
+                                    <td>0364416649</td>
+                                    <td>3721@gmacom</td>
+                                    <td>14587894</td>
+                                    <td>VIP</td>
+                                    <td>0</td>
+                                    <td>///////////</td>
+                                    <td><input type="checkbox" name="thành viên 5food"></td>
+                                    <td><input type="checkbox" name="Ngừng theo dõi"></td>
+                                </tr>-->
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="paginate">
+                    <div class="paginate-left">
+                        <div class="first-page"></div>
+                        <div class="prev-page"></div>
+                        <div class="page-infor">
+                            <span>Trang</span>
+                            <input type="text" value="1">
+                            <span>trên</span>
+                            <input type="text" value="1">
+                        </div>
+                        <div class="next-page"></div>
+                        <div class="last-page"></div>
+                        <div class="refresh-page"></div>
+                        <select name="size-page" class="size-page">
+                            <option value="50">50</option>
+                            <option value="50">25</option>
+                            <option value="50">15</option>
+                            <option value="50">5</option>
+                        </select>
+                    </div>
+                    <div class="paginate-right"><span>Hiển thị 1-19 trên 19 kết quả</span></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--- ADD CUSTOMER DIALOG --->
+    <div class="popup-box" id="add-customer-dialog" title="Khách hàng">
+        <div class="popup-content">
+            <div class="rowed">
+                <div class="left">
+                    <div class="form-title">Mã khách hàng <span style="color: red; font-size: 14px">(*)</span></div>
+                    <div class="input-validate">
+                        <input type="text" name="CustomerCode" class="txt-customerCode warning-feild" id="CustomerCode" />
+                        <!-- <div class="warning-icon"></div> -->
+                    </div>
+                </div>
+
+                <div class="right">
+                    <span class="title">Tên khách hàng <span style="color: red;">(*)</span></span>
+                    <div class="input-validate">
+                        <input type="text" name="CustomerName" class="txt-customerName warning-feild" />
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="rowed">
+                <div class="form-title">Nhóm khách hàng</div>
+                <div class="input-validate">
+                    <combobox id="cbbox"
+                              blueicon="1"
+                              feildvalue="GroupID"
+                              feilddisplay="GroupName"
+                              datauri="/api/getGroup">
+                    </combobox>
+                </div>
+            </div>
+
+            <div class="rowed">
+                <div class="form-title">ĐT di động <span style="color: red;">(*)</span></div>
+                <div class="input-validate">
+                    <input type="text" name="PhoneNumber" class="txt-phoneNumber warning-feild" />
+                </div>
+            </div>
+
+
+            <div class="rowed">
+                <div class="form-title">Ngày sinh</div>
+                <div class="input-validate plus">
+                    <input type="text" name="Date" class="txt-date date-plus" />
+                    <div class="date-trigger"></div>
+                </div>
+            </div>
+
+
+            <div class="rowed">
+                <div class="form-title">Tên công ty</div>
+                <input type="text" name="CompanyName" class="roll-form">
+            </div>
+
+            <div class="rowed">
+                <div class="left">
+                    <div class="form-title">Mã số thuế</div>
+                    <input type="text" name="TaxCode" class="txt-taxCode" />
+                </div>
+
+                <div class="right">
+                    <div class="form-title">Email</div>
+                    <input type="text" name="Email" class="txt-email" />
+                </div>
+            </div>
+
+            <div class="rowed">
+                <div class="form-title">Địa chỉ</div>
+                <input type="text" name="Address" class="roll-form">
+            </div>
+
+            <div style="height: 50px !important; display: flex;">
+                <div class="form-title">Ghi chú</div>
+                <div class="roll-form">
+                    <textarea rows="3" name="Note" class="txt-note textview"></textarea>
+                </div>
+            </div>
+
+            <div class="button-toolbar">
+                <div class="left-area">
+                    <a class="btn-view">
+                        <span class="btn-icon btn-help"></span>
+                        <span class="btn-name">Giúp</span>
+                    </a>
+                </div>
+
+                <div class="right-area">
+                    <a class="btn-view btn-closed btn-trigger" name="add">
+                        <span class="btn-icon"></span>
+                        <span class="btn-name">Cất</span>
+                    </a>
+                    <a class="btn-view btn-closed-add btn-trigger" name="">
+                        <span class="btn-icon"></span>
+                        <span class="btn-name">Cất & Thêm</span>
+                    </a>
+                    <a class="btn-view btn-cancel" name="cancel">
+                        <span class="btn-icon"></span>
+                        <span class="btn-name">Hủy bỏ</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../Views/resources/js/jquery-3.4.1.js"></script>
+    <script src="../Views/resources/js/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+    <script src="../Views/resources/js/customer.js"></script>
+</body>
+
+</html>

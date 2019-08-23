@@ -1,0 +1,831 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: tahoma;
+    font-size:100%;
+}
+
+#wrap{
+    width:100%;
+    height: 100vh;
+    display:flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*--------------------code phần bên trái----------------- */
+/*--------------------code phần bên trái----------------- */
+/*--------------------code phần bên trái----------------- */
+
+
+#menu{
+    width:230px;
+    background-color: #0973b9;
+}
+
+.nav{
+    width:230px;
+    height: 55px;
+    color: #ffffff;
+    font-size: 180%;
+    font-weight: 700;
+    line-height: 55px;
+    padding-left: 40px;
+    background-image: url("../../resources/img/cukcuk.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+}
+.list{
+    height: 92%;
+    overflow: auto;
+}
+.list ul{
+    width:230px;
+    overflow: hidden;
+}
+
+.list li{
+    width:230px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    border: 1px solid #0c6baa;
+}
+
+.list li a{
+    width: 190px;
+    height: 40px;
+    display: block;   
+    color: #ffffff;
+}
+
+.list li:hover,
+.list li:active{
+    background-color:#0199FC;
+}
+/* ----------------------------- icon ----------------- */
+/* ---------------------------------------------------- */
+.li1{
+    background-image: url("../../resources/img/tongquan2.png");
+    background-repeat: no-repeat;
+    background-position-x: 14px;
+    background-position-y: 12px;
+}
+.li2{
+    background-image: url("../../resources/img/baocao.png");
+    background-repeat: no-repeat;
+    background-position-x: 14px;
+    background-position-y: 9px;
+}
+.li3{
+    background-image: url("../../resources/img/muahang.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+}
+.li4{
+    background-image: url("../../resources/img/kho.png");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 10px;
+}
+.li5{
+    background-image: url("../../resources/img/quytienmat.png");
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 10px;
+}
+.li6{
+    background-image: url("../../resources/img/icon-deposit.png");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 10px;
+}
+.li7{
+    background-image: url("../../resources/img/icon-cost.png");
+    background-repeat: no-repeat;
+    background-position-x: 11px;
+    background-position-y: 7px;
+}
+.li8{
+    background-image: url("../../resources/img/khuyenmai.png");
+    background-repeat: no-repeat;
+    background-position-x: 13px;
+    background-position-y: 7px;
+}
+.li9{
+    background-image: url("../../resources/img/vector-smart-object.png");
+    background-repeat: no-repeat;
+    background-position-x: 14px;
+    background-position-y: 7px;
+}
+.li10{
+    background-image: url("../../resources/img/danhmuc.png");
+    background-repeat: no-repeat;
+    background-position-x: 14px;
+    background-position-y: 12px;
+}
+.li11{
+    background-image: url("../../resources/img/cancel-invoice.png");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 7px;
+}
+.li12{
+    background-image: url("../../resources/img/SMS_Menu.svg");
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 9px;
+}
+.li13{
+    background-image: url("../../resources/img/ic_GH.svg");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 9px;
+}
+.li14{
+    background-image: url("../../resources/img/ic_hoadon.png");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 7px;
+}
+.li15{
+    background-image: url("../../resources/img/thietlaphethong.png");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 9px;
+}
+.li16{
+    background-image: url("../../resources/img/iconHelp.png");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 9px;
+}
+.li17{
+    background-image: url("../../resources/img/icon-subscriber.png");
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 9px;
+}
+.li18{
+    background-image: url("../../resources/img/5food.png");
+    background-repeat: no-repeat;
+    background-position-x: 11px;
+    background-position-y: 7px;
+}
+
+.icon_down{
+    background-image: url("../../resources/img/huongxuong.png");
+    background-repeat: no-repeat;
+    background-position-x: 165px;
+    background-position-y: center;
+}
+
+
+/*--------------------code phần bên trái----------------- */
+/*--------------------code phần bên trái----------------- */
+/*--------------------code phần bên trái----------------- */
+
+
+/* -----------------------------code phần bên phải-------------------------- */
+/* -----------------------------code phần bên phải-------------------------- */
+/* -----------------------------code phần bên phải-------------------------- */
+
+#main{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+/*--------------- code header  */
+/*--------------- code header  */
+/*--------------- code header  */
+
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: #0973b9;
+    display: flex;
+}
+
+.header select{
+    height: 32px;
+    color: #ffffff;
+    margin-top: 11px;
+}
+.select1{
+    background-color: #005082;
+    margin-left: 10px;
+    width:200px;
+}
+
+.header-right{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.select2{
+    background-color: #005082;
+    width:170px;
+}
+
+.emp{
+    display: flex;
+    position: relative;
+}
+
+.icon-emp{
+    margin-top: 12px;
+    width:28px;
+    height: 28px;
+    background-image: url("../../resources/img/EmployeeImage.png");
+    background-repeat: no-repeat;
+    background-color: #FEFEFE;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.select-person{
+    padding-left: 30px;
+    margin-right: 20px;
+    background-color: #0973b9;
+    border:none;
+    width:170px;
+
+}
+
+.call{
+    width:65px;
+    height: 55px;
+    margin-right: 1px;
+    background-image: url("../../resources/img/ic_support.svg");
+    background-repeat: no-repeat;
+    background-position-x: -15px;
+    background-position-y: 0px;
+}
+
+.notify{
+    border-radius: 50%;
+    margin: 15px 15px;
+    width:24px;
+    height: 24px;
+    background-color: #ffffff;
+    background-image: url("../../resources/img/viewEmail.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* ----------------cost phần infor table*/
+/* ----------------cost phần infor table*/
+/* ----------------cost phần infor table*/
+.main-table{
+    overflow: auto;
+}
+.infor-table{
+    width: 100%;
+    height: 55px;
+    display: flex;
+}
+
+.infor-table-left{
+    display: flex;
+    width: 1000px;
+}
+
+.infor-table-left span{
+    font-size: 150%;
+    font-weight: 900;
+    line-height: 55px;
+    color: #000000;
+}
+
+.infor-table-icon{
+    background-image: url("../../resources/img/infor-table-icon.png");
+    width:4px;
+    height: 8px;
+    margin:24px 10px;
+}
+
+.infor-table-left a{
+    line-height: 55px;
+    color: #005082;
+}
+
+.infor-table-right{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    font-size: 85%;
+    flex-direction: row-reverse;
+}
+
+.infor-table-right a{
+ display: block;
+ width: 100%;
+ height: 28px;
+}
+
+.re-infor{
+    line-height: 28px;
+    height: 28px;
+    margin-top: 14px;
+}
+.feedback{
+    width: 100px;
+    padding-left: 28px;
+    border: 1px solid #1498eb;
+    background-image: url("../../resources/img/viewEmail.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 8px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.default{
+    width: 170px;
+    border: 1px solid #1498eb;
+    text-align: center;
+
+}
+
+/* ---------------------------------code toolbar------------------ */
+/* --------------------------------- code toolbar------------------ */
+/* --------------------------------- code toolbar------------------ */
+
+.toolbar{
+    width: 100%;
+    height: 27px;
+    background-color: aqua;
+}
+
+.toolbar ul{
+    height: 27px;
+    display: flex;
+}
+
+.toolbar li{
+    list-style: none;
+    width: auto;
+    height: 16px;
+    margin-top: 4px;
+    margin-right: 10px;
+
+}
+.toolbar li a{
+    color: #000000;
+    padding-left: 30px;
+    border-left:1px solid #0973b9;
+    background-repeat: no-repeat;
+
+}
+.ic1{
+    background-image: url("../../resources/img/them.png");
+    background-position-y: 0px;
+    background-position-x: 8px;
+}
+.ic2{
+    background-image: url("../../resources/img/nhanban.png");
+    background-position-y: 2px;
+    background-position-x: 8px;
+}
+.ic3{
+    background-image: url("../../resources/img/Edit16.png");
+    background-position-y: 2px;
+    background-position-x: 8px;
+}
+
+.ic4{
+    background-image: url("../../resources/img/xoa.png");
+    background-position-y: 5px;
+    background-position-x: 8px;
+}
+.ic5{
+    background-image: url("../../resources/img/nap.png");
+    background-position-y: 4px;
+    background-position-x: 8px;
+}
+.ic6{
+    background-image: url("../../resources/img/Import16.png");
+    background-position-y: 3px;
+    background-position-x: 8px;
+}
+.ic7{
+    background-image: url("../../resources/img/excel_97_24.png");
+    background-position-y: 2px;
+    background-position-x: 9px;
+}
+.ic8{
+    background-image: url("../../resources/img/ic_GopKhachHang.png");
+    background-position-y: 4px;
+    background-position-x: 8px;
+}
+.ic9{
+    background-image: url("../../resources/img/giup.png");
+    background-position-y: 1.5px;
+    background-position-x: 8px;
+}
+
+
+/* ---------------------------------code table------------------ */
+/* ---------------------------------code table------------------ */
+/* ---------------------------------code table------------------ */
+
+
+/* ----------code phần filter */
+/* ----------code phần filter */
+/* ----------code phần filter */
+
+table,th, td{
+    border:1px solid #2887c2;
+}
+table{
+    border-collapse:collapse;
+}
+
+td {
+	padding-left: 12px;
+	min-width: 150px;
+	max-width:300px;
+	height: 24px !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+tr:nth-child(2n+1){
+    background-color: aqua;
+}
+
+.col1{
+    height: 55px;
+}
+.name-col1{
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.filter{
+    height: 24px;
+    display: flex;
+}
+
+.dropdown,.dropdown-btn{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown-content a{
+    list-style: none;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+input{
+    width: 100%;
+}
+
+
+/* ---------------------------------code phân trang------------------ */
+/* ---------------------------------code phân trang------------------ */
+/* ---------------------------------code phân trang------------------ */
+
+
+.paginate{
+    position: absolute;
+    bottom: 16px;
+    height: 26px;
+    width: 100%;
+    display: flex;
+    padding: 4px 0 0 0;
+    background-color: #fff;
+}
+
+.paginate-left{
+    height: 26px;
+    display: flex;
+}
+
+.first-page{
+    width:26px;
+    height: 26px;
+    background-image: url("../../resources/img/page-first.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.prev-page{
+    width:26px;
+    height: 26px;
+    background-image: url("../../resources/img/page-prev.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.next-page{
+    width:26px;
+    height: 26px;
+    background-image: url("../../resources/img/page-next.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.last-page{
+    width:26px;
+    height: 26px;
+    background-image: url("../../resources/img/page-last.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.refresh-page{
+    width:26px;
+    height: 26px;
+    background-image: url("../../resources/img/refresh.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-infor{
+    display: flex;
+}
+.paginate-right{
+    text-align: right;
+    width: 100%;
+    height: 26px;
+}
+
+/*dialog*/
+
+
+#over {
+	display: none;
+	background: #000;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+
+.popup-box {
+	background-color: #fff;
+	width: 450px;
+	height: 200px;
+	display: none;
+	padding: 8px 8px 0px !important;
+	font: normal 13px/17px helvetica,arial,verdana,sans-serif;
+}
+
+	.popup-box .popup-content {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
+
+		.popup-box .popup-content .rowed {
+			display: flex;
+			width: 100%;
+			height: 24px;
+			margin-bottom: 4px;
+		}
+
+			.popup-box .popup-content .rowed .left {
+				display: flex;
+			}
+
+			.popup-box .popup-content .rowed .right {
+				display: flex;
+				width: 310px;
+				margin-left: 20px;
+			}
+
+		.popup-box .popup-content input {
+			width: 190px;
+			height: 24px;
+		}
+
+		.popup-box .popup-content .warning-feild {
+			width: 100%;
+		}
+
+		.popup-box .popup-content .wrap-content {
+			width: 100%;
+		}
+
+		.popup-box .popup-content div {
+			font-size: 13px;
+			cursor: default;
+			color: #000;
+		}
+
+
+
+	.popup-box .input-validate {
+		display: flex;
+		width: 190px;
+	}
+
+	.popup-box .warning-icon {
+		width: 24px !important;
+		height: 24px !important;
+		background: url('../../resources/img/Disable16.png') center no-repeat;
+	}
+
+	.popup-box .date-trigger {
+		width: 24px !important;
+		height: 22px !important;
+		background: url('../../resources/img/Disable16.png') center no-repeat;
+		cursor: pointer !important;
+	}
+
+	.popup-box .popup-content .form-title {
+		width: 130px;
+		margin-top: 3px;
+	}
+
+	.popup-box .popup-content .roll-form {
+		width: calc(100% - 134px);
+	}
+
+	.popup-box .popup-content .combo-box {
+		display: flex;
+		width: 100%;
+	}
+
+	.popup-box .popup-content .textview {
+		display: block;
+		width: 100%;
+		height: 50px;
+		vertical-align: top;
+	}
+
+	.popup-box .button-toolbar {
+		display: flex;
+		width: 100%;
+		height: 20px;
+		border: 0px solid #000 !important;
+		margin-top: 10px;
+	}
+
+		.popup-box .button-toolbar .left-area {
+			display: flex;
+			width: 378px;
+		}
+
+		.popup-box .button-toolbar .right-area {
+			display: flex;
+			float: right;
+		}
+
+	.popup-box .btn-view {
+		height: 26px;
+		border: 1px solid #ccc;
+		background-color: #fff;
+		padding: 4px 10px;
+		display: flex;
+		cursor: pointer;
+	}
+
+.button-toolbar a:hover {
+	border: 1px solid #0072BC;
+	background-color: #EBF0EB;
+}
+
+.popup-box .btn-view span {
+	font-size: 12px;
+}
+
+.popup-box .right-area .btn-view {
+	margin-left: 8px;
+}
+
+.popup-box .btn-view btn-name {
+	width: 100%;
+}
+
+.popup-box .btn-icon {
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+.popup-box .btn-help {
+	background: url('../../resources/img/Disable16.png') 0px -1600px no-repeat;
+}
+
+.popup-box .btn-closed {
+	background: url('../../resources/img/Disable16.png') 9px center no-repeat;
+}
+
+.popup-box .btn-closed-add {
+	background: url('../../resources/img/Disable16.png') 9px center no-repeat;
+}
+
+.popup-box .btn-cancel {
+	background: url('../../resources/img/Disable16.png') 9px center no-repeat;
+}
+
+
+.confirm {
+	width: 450px;
+	height: 200px;
+	display: none;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	background-color: #0072bc;
+	border: 0px;
+	border-radius: 0px;
+	padding-left: 4px;
+}
+
+.ui-dialog .ui-dialog-title {
+	float: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.ui-widget.ui-widget-content {
+	border: 5px solid #0072bc;
+	border-top: 0px;
+	padding: 0px;
+	background-color: #fff;
+}
+
+	.ui-widget.ui-widget-content tr:hover {
+		background-color: #fff;
+	}
+
+.hide {
+	display: none;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+	cursor: pointer;
+	border: 0px;
+	top: 57%;
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	/*background-image: url('../../resources/img/Disable16.png');*/
+}
+
+
+.ui-widget-overlay {
+	background: #000;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+
+.ui-dialog .ui-dialog-content {
+	padding: 0.5em 0.5em;
+	overflow: visible;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+	font: normal 12px/16px helvetica,arial,verdana,sans-serif;
+	width: 75px;
+	height: 24px;
+	background-image: -webkit-linear-gradient(top,#f2f2f2,#e0e0e0) !important;
+	border: 1px solid #ccc;
+}
+
+	.ui-dialog .ui-dialog-buttonpane button:hover {
+		border-color: #0072BC;
+		background-color: #EBF0EB;
+	}
+
+#ui-datepicker-div {
+	border: 0px solid #0072bc !important;
+	border-top: 0px;
+	padding: 0px;
+	background-color: #fff;
+}
+/*hết css dialog*/

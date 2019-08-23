@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\bin\Debug\MISA.BO.dll.config
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\bin\Debug\MISA.BO.dll
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\bin\Debug\MISA.BO.pdb
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\obj\Debug\MISA.BO.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\obj\Debug\MISA.BO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\obj\Debug\MISA.BO.csproj.CopyComplete
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\obj\Debug\MISA.BO.dll
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\obj\Debug\MISA.BO.pdb
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\obj\Debug\MISA.BO.Migrations.Initial.resources
+C:\Users\Admin\source\repos\MISA.CUKCUKAPI\MISA.BO\obj\Debug\MISA.BO.csproj.GenerateResource.cache
